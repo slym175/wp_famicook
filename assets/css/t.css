@@ -1,0 +1,166 @@
+.btn {
+    outline: none;
+    border: unset;
+    box-shadow: unset;
+}
+
+.active-prev img {
+    transform: rotate(180deg);
+}
+
+
+/* fix wp stype */
+.vc_column_container>.vc_column-inner {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.btn {
+    outline: none;
+    border: unset;
+    box-shadow: unset;
+}
+
+.active-prev img {
+    transform: rotate(180deg);
+}
+
+.service-submenu .actived a {
+    color: #9e0b00;
+}
+
+textarea {
+    resize: none;
+}
+
+.comment-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.comment-list .comment-author img,
+.comment-list .comment-author span.says {
+    display: none;
+}
+
+.comment-list .comment-author cite.fn {
+    font: normal 500 14px/21px Poppins-bold;
+    color: #000000;
+}
+
+.comment-list .comment-meta {
+    display: none;
+}
+
+.comment-list .comment {
+    margin-top: 20px;
+}
+
+.comment-list .comment p {
+    font-style: normal normal 14px/21px Poppins-regular;
+    color: #000000;
+}
+
+.comment-list .comment .comment-reply-link {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-decoration: none;
+}
+
+.comment-list .comment .comment-reply-link::before {
+    content: url(/wp-content/uploads/2020/09/traloi.png) !important;
+    margin-right: 10px !important;
+}
+
+a:focus,.btn:focus {
+    outline: none !important;
+    outline-offset: unset !important;
+}
+
+.screen-reader-text {
+    display: none;
+}
+
+a[disabled="disabled"] {
+    color: #333;
+    pointer-events: none;
+    cursor: pointer;
+}
+
+.link-page div a {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.link-page div {
+    font-family: Poppins-bold;
+    font-style: normal;
+    font-size: 18px;
+    color: #811F18;
+}
+
+.link-page .btn-link:not(:first-child) {
+    margin-left: 20px;
+}
+
+.breadcrumb-gt li {
+    position: relative;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.breadcrumb-gt li:not(.active)::after {
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border-top: 2px solid #5A5A5A;
+    border-right: 2px solid #5A5A5A;
+    transform: rotateZ(45deg);
+    right: 0;
+    bottom: 8px;
+}
+@media (max-width: 991.98px) {
+    .link-page .btn-link:not(:first-child) {
+        margin-left: 0;
+    }
+}
+
+.comment ul {
+    list-style: none;
+}
+
+.comment-list .comment .comment-reply-link {
+    font: normal normal 14px/16px Poppins-regular;
+    color: #000000;
+    margin-right: 15px;
+}
+
+.comment-author-role {
+    display: none;
+    font-family: Poppins-regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 15px;
+    color: #FFFFFF;
+    background: #EC8C1D;
+    border-radius: 3px;
+    right: -70px;
+    padding: 1px;
+    margin-left: 8px;
+}
+
+li.comment.comment-author-admin > div.comment .comment-by .comment-author-role {
+    display: inline-block;
+}
+
+li.comment.comment-author-admin > div.comment {
+    padding: 14px 18px;
+    background: #F8F8F8;
+}
+/* end fix wp style */
